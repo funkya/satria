@@ -1,0 +1,394 @@
+/*
+Title:		Master styles for screen media
+*/
+
+
+body {
+	font: 16px/21px normal normal Georgia, "Times New Roman" serif;
+	color: #393939;
+	text-shadow: #fff 1px 1px 1px;
+
+	background-image: url('3d-sunset-colorful.jpg');
+
+}
+
+/* Links */
+
+p {
+	margin-top: 0px 0px 20px 0px;
+}
+
+a:link, a:visited {
+	color: #fe0081;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	color: #fe0081;
+	text-decoration: underline;
+}
+
+
+/* PAGE STRUCTURE
+------------------------------------------------------------- */
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+	}
+
+
+/* HEADER
+------------------------------------------------------------- */
+
+div.header h1 {
+	width: 500px;
+	font-size: 72px;
+	font-weight: bold;
+	font-style: arial;
+	color: #181818;
+	padding: 40px 0 30px 25px;
+	background: url(../img/separator.png) 0 100% no-repeat;
+	float: left;
+	letter-spacing: -3px;
+}
+
+div.header h1 span {
+	display: block;
+	font-size: 26px;
+	color: #ff0082;
+	margin: 5px 0 0 0;
+	letter-spacing: normal;
+}
+
+div.header img {
+	float: right;
+	margin: 35px 25px 0 0;
+}
+
+div.tagline {
+	background: url(../img/separator.png) 0 100% no-repeat;
+	margin: 20px 0;
+}
+
+div.tagline p {
+	font-size: 20px;
+	font-style: arial;
+	line-height: 28px;
+	padding: 35px 0 60px 150px;
+	background: url(../img/icon-bulb.png) no-repeat;
+}
+
+
+/* MAIN STYLES
+------------------------------------------------------------- */
+
+div.section {
+	padding: 30px 15px;
+	background: url(../img/divider.png) 0 100% repeat-x;
+}
+
+/* Headings */
+
+div.section h2 {
+	color: #fe0081;
+	font-size: 36px;
+	font-style: arial;
+	letter-spacing: -1px;
+	height: 67px;
+	padding: 0 0 0 90px;
+	margin: 0 0 25px 0;
+}
+
+div.section h3 {
+	color: #1f1f1f;
+	font-size: 24px;
+	font-style: arial;
+	margin: 0 0 20px 0;
+}
+
+div.section h2.employment {
+	background: url(../img/icon-employment.png) no-repeat;
+	padding-top: 6px;
+}
+
+div.section h2.experience {
+	background: url(../img/icon-experience.png) no-repeat;
+	padding-top: 20px;
+}
+
+div.section h2.education {
+	background: url(../img/icon-education.png) no-repeat;
+	padding-top: 13px;
+}
+
+/* Unordered Lists - Employment */
+
+div.section ul {
+	margin-bottom: 20px;
+}
+
+div.section ul li {
+	font-size: 16px;
+	line-height: 26px;
+	background: url(../img/bullet.png) 0 50% no-repeat;
+	padding: 0 0 0 20px;
+}
+
+div.section ul.past li {
+	float: left;
+	width: 47%;
+}
+
+/* Ordered Lists - Experience & Education */
+
+div.section ol {
+	width: 695px;
+	margin: 0 auto;
+}
+
+div.section ol li {
+	background: url(../img/divider.png) repeat-x;
+	padding: 25px 5px;
+}
+
+div.section ol li:last-child {
+	padding-bottom: 0;
+}
+
+div.section ol li h4 {
+	color: #1f1f1f;
+	font-size: 18px;
+	font-style: arial;
+	font-weight: normal;
+}
+
+div.section ol li h5 {
+	color: #ff0081;
+	font-size: 14px;
+	font-style: arial;
+	font-weight: normal;
+}
+
+div.section ol li span {
+	color: #1f1f1f;
+	font-style: arial;
+	font-size: 12px;
+}
+
+div.section ol li p {
+	font-size: 16px;
+	font-style: arial;
+}
+
+/* Interests & Contact Details */
+
+div.section div.interests {
+	width: 400px;
+	float: left;
+	margin: 0 15px 0 0;
+	background: url(../img/vertical-line.png) 100% 50% no-repeat;
+}
+
+div.section div.contact {
+	width: 320px;
+	float: right;
+}
+
+div.section div.interests h3 {
+	font-size: 24px;
+	color: #fe0081;
+	background: url(../img/icon-interests.png) no-repeat;
+	height: 35px;
+	padding: 3px 0 0 50px;
+}
+
+div.section div.contact h3 {
+	font-size: 24px;
+	color: #fe0081;
+	background: url(../img/icon-contact.png) no-repeat;
+	height: 35px;
+	padding: 8px 0 0 50px;
+}
+
+div.section div.interests p {
+	font-style: arial;
+	margin: 0 0 25px 0;
+}
+
+div.section div.interests ul li {
+	background: none;
+	float: left;
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+
+div.section div.contact p {
+	font-size: 18px;
+	margin: 0 0 15px 0;
+	padding: 0 0 0 50px;
+	line-height: 38px;
+}
+
+div.section div.contact p.url {
+	background: url(../img/icon-url.png) no-repeat;
+}
+
+div.section div.contact p.email {
+	background: url(../img/icon-email.png) no-repeat;
+}
+
+div.section div.contact p.tel {
+	background: url(../img/icon-phone.png) no-repeat;
+}
+
+
+/* FOOTER
+------------------------------------------------------------- */
+
+div.footer {
+	margin: 20px;
+	font-style: italic;
+	color: #373737;
+}
+
+div.footer p {
+	float: left;
+}
+
+div.footer p.design {
+	float: right;
+}
+
+/* MISC.
+------------------------------------------------------------- */
+
+.hide {
+	display: none;
+}
+
+
+/* self-clear floats */
+
+.group:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+.kotak p{
+	font: arial;
+	background-color: rgba(0,0,0,.3);
+	width: 130%;
+	padding:-10px 0 -10px 0;
+	text-align: center;
+	color: white;
+	position: absolute;
+	bottom: -80px
+	left: -7px;
+	opacity: 0;
+	z-index: 9999;
+
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.kotak:hover p{
+	opacity: 1;
+	bottom: -40px;
+}
+.gambar {
+	padding-right: -20px;
+	position: relative;
+	border: 5px solid white;
+
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,.3)3
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,.3);
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+
+	cursor: pointer;
+	overflow: hidden;
+}
+.gambar img{
+	width: 450px;
+
+	-moz-transition: all 1.5s ease-in;
+	-webkit-transition: all 1.5s ease-in;
+	-o-transition: all 1.5s ease-in;
+	-ms-transition: all 1.5s ease-in;
+	transition: all 1.5s ease-in;
+}
+.gambar:hover .caption{
+	opacity: 1;
+	top: 0;
+}
+.gambar:hover h3, .gambar:hover p{
+	left: 0;
+}
+.gambar:hover img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.caption{
+	opacity: 0;
+	position: absolute;
+	top: -100%;
+	width: 64%;
+	height: 64%;
+	background-color: rgba(0,0,0.2);
+	color: #ff29ff;
+	font: arial;
+
+	-moz-transition: all .4s ease-in;
+	-webkit-transition: all .4s ease-in;
+	-o-transition: all .4s ease-in;
+	-ms-transition: all .4s ease-in;
+	transition: all .4s ease-in;
+
+	-moz-transition-delay: .5s;
+	-webkit-transition-delay: .5s;
+	-o-transition-delay: .5s;
+	-ms-transition-delay: .5s;
+	transition-delay: .5s;
+}
+.caption h3, .caption p{
+	padding: 10px 20px 10px 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+	position: relative;
+	left: 300%;
+
+	-moz-transition: all .4s;
+	-webkit-transition: all .4s;
+	-o-transition: all .4s;
+	-ms-transition: all .4s;
+	transition: all .4s;
+}
+
+.caption h3{
+	margin-top: 10px;
+	background-color: black;
+
+	-moz-transition-delay: .1s;
+	-webkit-transition-delay: .1s;
+	-o-transition-delay: .1s;
+	-ms-transition-delay: .1s;
+	transition-delay: .1s;
+}
+.caption p{
+	-moz-transition-delay: 1.2s;
+	-webkit-transition-delay: 1.2s;
+	-o-transition-delay: 1.2s;
+	-ms-transition-delay: 1.2s;
+	transition-delay: 1.2s;
+}

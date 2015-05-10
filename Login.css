@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial, helvetica, sans-serif;
+	
+
+}
+
+header {
+	font-weight: bold;
+	font-size: 85%;
+	width: 100%;
+}
+
+header .menu {
+	height: 70px;
+	margin: 0 auto;
+	background: #5D695D;
+	width: 100%;
+}
+
+header .menu ul {
+	list-style: none;
+	line-height: normal;
+}
+
+header .menu li {
+	float: left;
+}
+
+header .menu .link ul li a {
+	font-size: 20px;
+}
+
+header .menu .button {
+	float: right;
+}
+
+header .menu a {
+	display: block;
+	padding: 20px 20px 14px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+	border: none;
+}
+
+.search {
+	background-color: #8E9C8E;
+	width: 100%;
+	height: 50px;
+}
+
+.search table {
+	float: right;
+	margin-right: 10px;
+}
+
+.search input {
+	height: 26px;
+}
+
+.container {
+	padding-top: 60px;
+	width: 100%;
+	height: 500px;
+	background-color: #B2BFB2;
+}
+
+.container .log {
+	margin: 20px auto;
+	width: 300px;
+	height: 200px;
+	background-color: #E1E3E1;
+	border: 10px solid grey;
+}
+
+.container .log .login {
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+.container .log .login b {
+	margin-top: 20px;
+}
+
+.container .log .login table {
+
+}
+
+.container .log .login table td {
+	 height: 30px;
+}
+
+.container .log .login table td input {
+	 height: 25px;
+}

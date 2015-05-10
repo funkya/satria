@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>L1 143040047</title>
+		<link rel="stylesheet" href="Login.css">
+		<script type="text/javascript" src="Login.js"></script>
+		<from name="loginfrom" onSubmit="return validateFrom();" action="Login.html" method="post">
+		<input type="text" name="usr" placholder="username" class="ghost">
+		<input type="password" name="password" placholed="password" class="ghost">
+		<input type="submit" value="Login" class="btn" />
+
+		</from>
+		
+		<!-- source code script javascript -->
+		<script>
+		   function validFrom() {
+		   	  var un = document.loginform.usr.value;
+		   	  var pw = document.loginform.pasword.value;
+		   	  var username = "Satria"
+		   	  var password = "Astriaulia"
+		   	  if ((un = username) && (pw == password)) {
+		   	  	 return true;
+		   	  
+		   }
+		   else {
+                alert ("Cek Username dan Password")
+                return false;
+                
+		      }
+		}
+		</script>
+		<!-- end source code footer -->
+
+	</head>
+
+
+	<body>
+   
+
+		<!-- menu -->
+		<header>
+			<div class="menu">
+				<div class="link">
+					<ul>
+						<li><a href="#home">TUGAS BESAR PEMOGRAMAN WEB</a></li>
+						
+	
+				</div>
+				
+				<div class="button">
+					<ul>
+						<li><a href="#home"><img src="img/facebook.png"></a></li>
+						<li><a href="#"><img src="img/gplus.png"></a></li>
+						<li><a href="#"><img src="img/twitter.png"></a></li>
+					</ul>	
+				</div>	
+
+			</div>
+			<!-- akhir div menu -->
+			
+
+
+		</header>
+		<!-- akhir header -->
+
+		<div class="search">
+			<table>
+				<tr>
+					<td><input type="text" placeholder="cari.." height="50px"></td>
+					<td><img src="img/search-btn.png" height="30px"></td>
+					</tr>
+			</table>
+		</div>
+		<!-- akhir div search -->
+		
+		<div class="container">
+			<div class="log">
+				<div class="login">
+					<form name="login">
+	           		<table width="225" cellpadding="4" cellspacing="10">
+	           			
+	       				<tr><b>LOGIN</b></tr>
+		       			<tr>
+		       				<td><input type="text" name="username" placeholder="username"></td>
+		       			</tr>
+	    	   			<tr>
+	    	   				<td><input type="password" name="password" placeholder="password"></td>
+	    	   			</tr>
+	       				<tr>
+	       					<td colspan="2" align="right"></td>
+	       					<td><input type="button" value="Submit" onClick="Login()"></td>
+	       				</tr>
+	           		</table>	
+				</div>
+				<!-- akhir div login -->
+			</div>
+			<!-- akhir div log -->
+		</div>
+		<!-- akhir div container -->
+
+	</body>
+</html>
